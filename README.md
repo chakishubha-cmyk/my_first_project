@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Weekly Class Routine (Light Theme)</title>
+  <title>Weekly Class Routine</title>
   <style>
     :root{--bg:#f9fafb;--card:#ffffff;--muted:#6b7280;--accent:#2563eb}
     *{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
