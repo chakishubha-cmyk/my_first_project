@@ -1,3 +1,162 @@
-# my_first_project
-this is my first repository.
-hwllo
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weekly Class Routine (Light Theme)</title>
+  <style>
+    :root{--bg:#f9fafb;--card:#ffffff;--muted:#6b7280;--accent:#2563eb}
+    *{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+    body{margin:0;background:var(--bg);color:#ab50e7;padding:28px}
+    .centerimage{display:block;margin-left:auto;margin-right:auto;}
+    .container{max-width:1100px;margin:0 auto}
+    h1{margin:0 0 12px;font-size:22px;text-align:center}
+     h3{margin:0 0 8px;font-size:18px;text-align:center}
+         .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+    .legend{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+    .pill{display:flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;background:#ebecee;color:#111827;font-size:14px}
+    .dot{width:12px;height:12px;border-radius:3px}
+    .dot.cs{background:#34d399}
+    .dot.csmajor{background:#818cf8}
+    .dot.phym{background:#f87171}
+    .dot.chemm{background:#facc15}
+
+    table{width:100%;border-collapse:collapse;margin-top:8px}
+    th,td{border:1px solid #e5e7eb;padding:12px;text-align:center}
+    th{background:#f9fafb;font-weight:600;color:#374151}
+    td.time{width:170px;font-weight:700;color:var(--muted);background:#f9fafb}
+
+    .cell{padding:8px;border-radius:8px;min-height:48px;display:flex;align-items:center;justify-content:center;font-weight:500;text-align:center}
+    .cs{background:#d1fae5;color:#065f46}
+    .csmajor{background:#e0e7ff;color:#312e81}
+    .phym{background:#fee2e2;color:#7f1d1d}
+    .chemm{background:#fef9c3;color:#713f12}
+
+    @media print{body{background:white;color:black} .legend{display:none} .card{background:white;box-shadow:none}}
+  </style>
+</head>
+<body>
+  <pre>
+    <a href="https://coochbeharcollege.ac.in/"> <img src="https://pg.onlineadmission.org/images/CBCC_LOGO.jpeg" alt="coochbehar college" class = centerimage hight="100"width="100"/></a>
+ </pre>
+  <div class="container">
+    <h1>COOCHBEHAR COLLEGE</h1>
+    <br>
+    <h1>Weekly Class Routine</h1>
+    <BR>
+        <h3>3rd SEMESTER</h3>
+    <div class="card">
+      <div class="legend" aria-hidden>
+        <div class="pill"><span class="dot cs"></span> Computer Science</div>
+        <div class="pill"><span class="dot csmajor"></span> Computer Science Major</div>
+        <div class="pill"><span class="dot phym"></span> PHY MIN</div>
+        <div class="pill"><span class="dot chemm"></span> CHEM MIN</div>
+      </div>
+
+      <table aria-label="Weekly class routine">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time">10:00 – 12:00</td>
+            <td><div class="cell cs">Computer Science</div></td>
+            <td><div class="cell csmajor">CS MAJOR-4 (PRS)</div></td>
+            <td><div class="cell csmajor">CS MAJOR-3 (MM) LAB</div></td>
+            <td>
+              <div class="cell phym">PHY MIN LAB F1&F2 (ID)</div><br>
+              <div class="cell chemm">CHEM MIN LAB (SP)</div>
+            </td>
+            <td>
+              <div class="cell phym">PHY MIN LAB H3&H4 (ID)</div><br>
+              <div class="cell chemm">CHEM MIN LAB (SG)</div>
+            </td>
+            <td><div class="cell csmajor">CS MAJOR-4 (PRS)</div></td>
+          </tr>
+
+          <tr>
+            <td class="time">12:00 – 1:00</td>
+            <td><div class="cell">–</div></td>
+            <td>
+              <div class="cell phym">PHY MIN LAB H1&H2 (SK)</div><br>
+              <div class="cell chemm">CHEM MIN (SG)</div>
+            </td>
+            <td><div class="cell csmajor">CS MAJOR-4 (PRS)</div></td>
+            <td><div class="cell csmajor">CS MAJOR-3 (MM)</div></td>
+            <td><div class="cell csmajor">CS MAJOR-3 (MM)</div></td>
+            <td><div class="cell">–</div></td>
+          </tr>
+
+          <tr>
+            <td class="time">1:00 – 2:00</td>
+            <td><div class="cell csmajor">CS MAJOR-4 (PRS)</div></td>
+            <td>
+              <div class="cell phym">PHY MIN H1&H2 (SK)</div><br>
+              <div class="cell chemm">CHEM MIN (SG)</div>
+            </td>
+            <td><div class="cell csmajor">CS MAJOR-4 (PRS)</div></td>
+            <td><div class="cell csmajor">CS MAJOR-3 (MM)</div></td>
+            <td><div class="cell csmajor">CS MAJOR-3 (MM)</div></td>
+            <td><div class="cell">–</div></td>
+          </tr>
+
+          <tr>
+            <td class="time">2:00 – 3:00</td>
+            <td><div class="cell csmajor">CS MAJOR-4 (PRS)</div></td>
+            <td><div class="cell csmajor">CS MAJOR-3 (MM)</div></td>
+            <td><div class="cell">–</div></td>
+            <td><div class="cell csmajor">Tutorial (PRS)</div></td>
+            <td><div class="cell">–</div></td>
+            <td><div class="cell">–</div></td>
+          </tr>
+
+          <tr>
+            <td class="time">3:00 – 4:00</td>
+            <td><div class="cell">SEC-3</div></td>
+            <td><div class="cell">MDC-2</div></td>
+            <td><div class="cell">SEC-3</div></td>
+            <td><div class="cell">MDC-2</div></td>
+            <td><div class="cell">SEC-3</div></td>
+            <td><div class="cell">MDC-2</div></td>
+          </tr>
+
+          <tr>
+            <td class="time">4:00 – 5:00</td>
+            <td><div class="cell">SEC-3</div></td>
+            <td><div class="cell">–</div></td>
+            <td><div class="cell">SEC-3</div></td>
+            <td><div class="cell">–</div></td>
+            <td><div class="cell">SEC-3</div></td>
+            <td><div class="cell">–</div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+   <h1>FACULTY DETAILS</h1>
+<h2>Department of Computer Science</h2>
+        Prof Somnath Saha(SS)
+        <br>Prof Dibyendu Dey(DD)
+       <br> Prof Madhurima Mondal Saha(MM)
+       <br> Prof Prasun Sarkar(PRS)
+       <h2>Department of Physics</h2>
+       Prof Parimal Sarkar(PS)
+       <br> Prof Animesh Halder(AH)
+       <br> Prof Ishita De(ID)
+       <br> Prof Sudipta Karmakar(SK)
+       <br> Prof Mukesh Prashan(MP)(Weekly invited)
+       <h2>Department of Chemistry</h2>
+     Prof Rabindra Dey(RD)
+     <br> Prof Snehasis Bhakta(SB)
+     <br> Prof Subarna Panchanan(SP)
+     <br> Prof Srabanti Ghosh(SG)
+</body>
+</html>
